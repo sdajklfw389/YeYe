@@ -39,7 +39,11 @@ Create a JSON file following this format:
 - `species`: must be `"dog"`, `"cat"`, or `"other"`
 - `media_uris`: array of IPFS/Arweave URIs for images/videos (optional)
 
-#### 2. (Optional) Upload media to IPFS/Arweave
+#### 2. (Optional) Upload media to IPFS/Arweave (Unsettled)
+
+Currently i just pushed the media to under /incidents in this repo
+
+---------------------------------------------------------------------
 
 For images and videos, upload them to decentralized storage:
 - **IPFS**: Use [Pinata](https://pinata.cloud), [web3.storage](https://web3.storage), or [Infura](https://infura.io)
