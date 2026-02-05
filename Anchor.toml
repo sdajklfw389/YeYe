@@ -1,0 +1,21 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+incident_registry = "DpJ2bA7az2WgKcpcxC63ALY7B9K31NCckQdEfaG9R9Nx"
+
+[programs.devnet]
+incident_registry = "DpJ2bA7az2WgKcpcxC63ALY7B9K31NCckQdEfaG9R9Nx"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "/home/jls/.config/solana/yeye.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

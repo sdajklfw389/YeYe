@@ -1,10 +1,9 @@
 {
-  "title": "XiaoWang incident report",
-  "description": "Time: 02.02.2026 At: LianYunGang, China. Description: Samoyed burned to death by two kids. Murder: Unknown name",
-  "date": "2026-02-04",
-  "location": "",
-  "species": "",
-  "evidence_urls": [],
-  "source_urls": ["https://github.com/sdajklfw389/YeYe/blob/main/incidents/XiaoWang/XiaoWang_2026-02-04_140314_326.png"],
-  "reporter_contact": ""
+  "perpetrator_name": "Unknown (two children)",
+  "title": "XiaoWang - Samoyed burned to death",
+  "description": "On February 2, 2026, in LianYunGang, Jiangsu Province, China, a Samoyed dog named XiaoWang was burned to death by two children. The perpetrators' identities are currently unknown. This incident was reported and documented to ensure the record cannot be erased.",
+  "incident_date": "2026-02-02",
+  "location": "LianYunGang, Jiangsu Province, China",
+  "species": "dog",
+  "media_uris": []
 }

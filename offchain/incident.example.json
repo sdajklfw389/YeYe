@@ -1,0 +1,12 @@
+{
+  "perpetrator_name": "Unknown / John Doe",
+  "title": "Animal abuse incident report",
+  "description": "Full description of the incident including what happened, circumstances, and any relevant details. This text is stored directly on the Solana blockchain and cannot be censored.",
+  "incident_date": "2026-02-01",
+  "location": "City, Province, China",
+  "species": "dog",
+  "media_uris": [
+    "ipfs://QmExampleHash123456789",
+    "ar://ArweaveExampleId987654321"
+  ]
+}

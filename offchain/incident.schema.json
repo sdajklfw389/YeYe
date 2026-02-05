@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Incident",
+  "description": "Schema for incident data to be submitted on-chain. All text fields are stored directly on Solana blockchain for censorship resistance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "perpetrator_name",
+    "title",
+    "description",
+    "incident_date",
+    "location",
+    "species"
+  ],
+  "properties": {
+    "perpetrator_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the person who committed the act (stored on-chain)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200,
+      "description": "Title/summary of the incident (stored on-chain)"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 2000,
+      "description": "Full description of what happened (stored on-chain)"
+    },
+    "incident_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when the incident occurred, format: YYYY-MM-DD (stored on-chain)"
+    },
+    "location": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 200,
+      "description": "Location where the incident occurred (stored on-chain)"
+    },
+    "species": {
+      "type": "string",
+      "enum": ["dog", "cat", "other"],
+      "description": "Species of the animal (stored on-chain)"
+    },
+    "media_uris": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 128,
+        "description": "URI to media file on IPFS/Arweave (e.g., ipfs://Qm... or ar://...)"
+      },
+      "maxItems": 10,
+      "default": [],
+      "description": "URIs to evidence media files on decentralized storage (stored on-chain)"
+    }
+  }
+}
