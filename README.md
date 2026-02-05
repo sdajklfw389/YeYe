@@ -6,6 +6,10 @@ YeYe was a Samoyed who died on February 2, 2026. He was burned alive in his own 
 
 ![YeYe](yeye_20260203102343_14.jpg)
 
+In the process of creating this memorial token, I realized that this project should be something bigger. So I came up with the idea that we should keep track of all the animal abuse incidents in China, especially the ones that are not solved and have been silenced or taken down from the internet.
+
+在创建这个纪念代币的过程中，我意识到这个项目应该做得更大。所以我想到，我们应该记录中国所有的虐待动物事件，特别是那些没有被解决、被封口或者从网上被删除的事件。
+
 ---
 
 ## Incident Registry (Censorship-Resistant)
